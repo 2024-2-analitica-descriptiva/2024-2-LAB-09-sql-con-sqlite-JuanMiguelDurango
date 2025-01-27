@@ -45,7 +45,7 @@
 --  
 SELECT 
     K0,
-    ROUND(avg(c12), 2) as "avg(c12)"
+    avg(c12)
 FROM 
     tbl1
 WHERE 
