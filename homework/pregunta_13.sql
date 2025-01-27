@@ -44,7 +44,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 -- Validation query
-SELECT K0, ROUND(AVG(c12), 2) as "avg(c12)"
+SELECT K0, avg(c12)
 FROM tbl1
 WHERE c13 > 400
 GROUP BY K0
